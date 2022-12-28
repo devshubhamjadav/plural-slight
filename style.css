@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 110vh;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+}
+
+.box-1 {
+    height: 600px;
+    width: 700px;
+    background-color: rgb(7, 8, 8);
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    /* border: 2px solid wheat; */
+}
+
+.logo img {
+    height: 60px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 20px;
+    margin-left: 70px;
+
+}
+
+.input label {
+    color: white;
+    font-size: 20px;
+}
+
+.input input {
+    height: 40px;
+    border: 1px solid black;
+
+}
+
+.input-2 {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 20px;
+    margin-left: 70px;
+}
+
+.input-2 label {
+    color: white;
+    font-size: 20px;
+}
+
+.input-2 input {
+    height: 40px;
+    border: 1px solid rgb(15, 14, 14);
+
+}
+
+.sing-btn {
+    width: 75%;
+    margin-left: 70px;
+}
+
+.sing-btn button {
+    height: 40px;
+    width: 100%;
+    margin-left: 15px;
+    background: #0074ab;
+    border: none;
+}
+
+.sing-btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.forget {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+    line-height: 40px;
+}
+
+.forget a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #0074ab;
+
+}
+
+.forget a:hover {
+    text-decoration: underline;
+}
+
+.box-1 hr {
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.account-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.account-btn button {
+    height: 40px;
+    width: 80%;
+    background: rgba(138, 153, 168, .25);
+}
+
+.account-btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.copy {
+    text-align: center;
+}
+
+.copy p {
+    color: white;
+}
+
+.copy a {
+    color: white;
+}
+
+.box-2 {
+    height: 630px;
+    width: 700px;
+    /* background-color:gray; */
+    background: rgba(138, 153, 168, .25);
+}
+
+.img-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    /* border: 2px solid red; */
+}
+
+.img-section img {
+    height: 400px;
+}
+
+.free-btn {
+    width: 150px;
+}
+
+.free-btn button {
+    height: 60px;
+    width: 150px;
+    background-color: #ff1675;
+    border: none;
+    border-radius: 5px;
+}
+
+.free-btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
