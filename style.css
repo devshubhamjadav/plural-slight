@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 2px solid red; */
 }
 
 .container {
-    height: 110vh;
+    height: 120vh;
     width: 100%;
     background-color: rgb(10, 10, 10);
     display: flex;
